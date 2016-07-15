@@ -1,0 +1,40 @@
+<html>
+  <head>
+    <meta charset="UTF-8"/>
+    <link href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css" rel="stylesheet">
+    <title>My Image Search Abstraction Layer</title>
+  </head>
+  <body>
+    <div class="container">
+      <h1>My Image Search Abstraction Layer</h1>
+      <blockquote>
+      A full stack JavaScript app that allows you to search for images :
+      <br/>
+      <br/>
+      <p>User stories:</p>
+        <ul>
+          <li>I can get the image URLs, alt text and page urls for a set of 
+            images relating to a given search string
+          </li>
+          <li>I can paginate through the responses by adding a ?offset=2 
+            parameter to the URL
+          </li>
+          <li>I can get a list of the most recently submitted search strings
+          </li>
+        </ul>
+      </blockquote>
+      <h3>Example search usage:</h3>
+      <code>
+        https://salty-fortress-39775.herokuapp.com/search/cats
+      </code>
+      <br/>
+      <code>
+        https://salty-fortress-39775.herokuapp.com/search/lolcats%20funny?offset=10
+      </code>
+      <h3>Example latest usage:</h3>
+      <code>
+        https://salty-fortress-39775.herokuapp.com/latest/
+      </code>
+    </div>
+  </body>
+</html>
